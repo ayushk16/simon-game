@@ -1,18 +1,25 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #C0EEE4;
 }
 
+  
 #level-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Tilt Prism', cursive;
   font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  margin: 3%;
+  margin-bottom:1% ;
+  color: #0b0b0b;
+}
+#guide{
+  font-family: "tilt prism";
+  font-size: 1.5rem;
+  color: #201e1e;
 }
 .highest-level {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'd', cursive;
   margin:  5%;
-  color: #FEF2BF;
+  color: #FF9E9E;
 }
 .container {
   display: block;
@@ -26,32 +33,33 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 10px solid rgb(255, 255, 255);
   border-radius: 20%;
 }
 
 .game-over {
-  background-color: red;
+  background-color: rgb(225, 51, 51);
   opacity: 0.8;
 }
 
 .red {
-  background-color: red;
+  background-color: rgb(181, 73, 73);
 }
 
 .green {
-  background-color: green;
+  background-color: rgb(104, 207, 104);
 }
 
 .blue {
-  background-color: blue;
+  background-color: rgb(63, 54, 189);
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgb(224, 224, 119);
 }
 
 .pressed {
   box-shadow: 0 0 20px white;
+  opacity: .5;
   background-color: grey;
 }
